@@ -9,7 +9,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: redhat
       MYSQL_DATABASE: webpage
-      MYSQL_USER: sabari
+      MYSQL_USER: shikha
       MYSQL_PASSWORD: redhat
                  
   phpmyadmin:
@@ -17,7 +17,7 @@ services:
     ports:
       - 8001:80
     environment:
-      PMA_USER: sabari 
+      PMA_USER: shikha 
       PMA_PASSWORD: redhat
       PMA_HOST: 172.17.0.3
     depends_on:
